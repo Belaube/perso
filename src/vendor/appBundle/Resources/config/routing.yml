@@ -1,0 +1,7 @@
+homepage:
+    pattern:  /
+    defaults: { _controller: vendorappBundle:Main:welcome }
+
+app:
+    pattern:  /Main
+    defaults: { _controller: vendorappBundle:Main:index }
